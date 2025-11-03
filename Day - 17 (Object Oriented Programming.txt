@@ -1,0 +1,78 @@
+Day - 17 (Object Oriented Programming)
+============================================
+OOP : Object Oriented Programming Language
+
+Class & Object:
+---
+Class: Class is a group of elements having common properties and behaviors.
+Class is virtual.
+Class is virtual encapsulation of properties and behaviors.
+Class is generalization.
+Class is blue print for Objects.
+
+Object: Object is an individual element in the group of elements having physical properties and physical behaviors.
+Object is physical or real.
+Object is physical encapsulation of properties and behaviors.
+Object is specialization.
+Object is instance of a Class.
+Class Structure in Java:
+A basic class in java has the following structure.
+
+//access modifier+ class keyword + class name.
+public class ClassName {
+//fields(attributes/properties)
+// datatypes + variable name
+private datatype fieldname;
+//methods (behaviors/operators)
+public returnType methodName(parameters){
+//method body
+//logic and operations
+}
+}
+
+Member methods of a class:
+---
+Member methods are function defined within a class that perform operations on the class data or provide functionality. They represent the behaviors of the objects created from the class.
+
+Types of member methods:
+---
+Accessor Methods(Getters): return the value of primitive attribute.
+Mutator methods(setter): modify the value of primitive attributes.
+Operation Methods : perform operations using the class attribute.
+Static method: belonging to the class rather than objects.
+Final methods: cannot be overridden by subclass.
+Abstract Methods: method without implementation(used in abstract class).
+
+Method Structure:
+=======================
+accessesModifier [static][final] returnType
+methodName(ParameterList){
+//method body
+// logic and operations
+// return value;
+//if return type is not void.
+
+creating Objects:
+=======================
+ClassName objName = new ClassName();
+
+
+
+
+Assignment:
+named bank account
+holder name;
+account number;
+balance;
+createAccount(); //method
+deposit(); //deposit amount should be > 0&& >= 500 && multiples of 100
+withdraw //amount // multiples of 100 >= 500 < accountbalance
+accountinfo()
+
+
+
+
+
+
+
+
